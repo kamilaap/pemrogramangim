@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .moving-background {
+    width: 100%;
+    height: 100%;
+    background-image: url('pemandangan.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    animation: moveBackground 10s linear infinite; /* Adjust duration and timing function as needed */
+  }
+  
+  @keyframes moveBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 1000% 0;
+    }
+  }
+  
